@@ -1,6 +1,9 @@
 # Wikipedia2Image
 Student project for the lecture [Deep Vision](https://hci.iwr.uni-heidelberg.de/content/deep-vision) summer term 2019.
 
+![example](example.jpg?raw=true "Example image of generated politicians using our model")
+
+
 ## Problem Description
 
 This project aims at **translating text in the form of single-sentence human-written de-
