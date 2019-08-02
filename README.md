@@ -3,6 +3,9 @@ Student project for the lecture [Deep Vision](https://hci.iwr.uni-heidelberg.de/
 
 ## Problem Description
 
+This project aims at **translating text in the form of single-sentence human-written de-
+scriptions from Wikipedia articles into high-resolution images** using a conditional [ProGAN](https://github.com/akanimax/pro_gan_pytorch). We use a self-crawled dataset of (image, text)-pairs from the [wikidata Query Service](https://query.wikidata.org/). The training data are only weakly correlated -  only very salient features of persons within images (such as age, gender or origin) find mention in the texts while the rest of the texts consist of
+noise irrelevant to the image and a learning model.
 
 ## Data Set
 
@@ -25,3 +28,4 @@ See requirements.txt
 
 For the evaluation we provide a [Jupyter Notebook](Evaluator/Evaluation.ipynb) and pretrained weights within the Evaluator folder.
 For more details, have a look at the notebook.
+
