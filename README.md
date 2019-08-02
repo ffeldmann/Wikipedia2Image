@@ -2,13 +2,13 @@
 Student project for the lecture [Deep Vision](https://hci.iwr.uni-heidelberg.de/content/deep-vision) summer term 2019.
 
 ![example](example.jpg?raw=true "Example image of generated politicians using our model")
-*he former president of Zimbabwe Africa young, he Swiss businessman and actor Europe young, she American congresswoman from 1967-1998 Canada middle, he Japanese professor for socio-economics Asia middle*
+from left to right: *he former president of Zimbabwe Africa young, he Swiss businessman and actor Europe young, she American congresswoman from 1967-1998 Canada middle, he Japanese professor for socio-economics Asia middle*
 
 
 ## Problem Description
 
 This project aims at **translating text in the form of single-sentence human-written de-
-scriptions from Wikipedia articles into high-resolution images** using a conditional [ProGAN](https://github.com/akanimax/pro_gan_pytorch) (who we took the main part of our codebase from, thanks!). We use a self-crawled dataset of (image, text)-pairs from the [wikidata Query Service](https://query.wikidata.org/). The training data are only weakly correlated -  only very salient features of persons within images (such as age, gender or origin) find mention in the texts while the rest of the texts consist of
+scriptions from Wikipedia articles into high-resolution images** using a conditional [ProGAN](https://github.com/akanimax/pro_gan_pytorch) (by akanimax, thanks!). We use a self-crawled dataset of (image, text)-pairs from the [wikidata Query Service](https://query.wikidata.org/). The training data are only weakly correlated -  only very salient features of persons within images (such as age, gender or origin) find mention in the texts while the rest of the texts consist of
 noise irrelevant to the image and a learning model.
 
 ## Data Set
