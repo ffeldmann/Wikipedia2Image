@@ -10,7 +10,6 @@ For obtaining the data set please change to the data/ directory.
 Within the data/ directory we provide the json file contianing the entities we crawled from wikipedia.
 
 
-
 ## How to run the code
 #### Get pretrained models for InferSent and GloVe
 ```
@@ -18,12 +17,11 @@ Within the data/ directory we provide the json file contianing the entities we c
 !wget http://nlp.stanford.edu/data/glove.840B.300d.zip && unzip glove.840B.300d.zip && rm glove.840B.300d.zip
 ```
 
-
 ### Requirements
 
-
+See requirements.txt
 
 ## Evaluation
 
-
-
+For the evaluation we provide a [Jupyter Notebook](Evaluator/Evaluation.ipynb) and pretrained weights within the Evaluator folder.
+For more details, have a look at the notebook.
