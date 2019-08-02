@@ -1,0 +1,6 @@
+tqdm
+wikidata
+matplotlib
+numpy
+urllib
+
