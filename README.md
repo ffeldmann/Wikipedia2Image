@@ -33,3 +33,6 @@ See requirements.txt
 For the evaluation we provide a [Jupyter Notebook](Evaluator/Evaluation.ipynb) and pretrained weights within the Evaluator folder.
 For more details, have a look at the notebook.
 
+### Thanks to
+
+Code is based partially on [akanimax](https://github.com/akanimax/pro_gan_pytorch).
